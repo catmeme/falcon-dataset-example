@@ -3,14 +3,13 @@
 ###### Setup a virtualenv:
 
 ```
-virtualenv -p /usr/bin/python3.4 venv
-ln -s venv/bin/activate
-source activate
+python3 -m venv venv
+source venv/bin/activate
 ```
 
 ###### Install dependencies:
 
-`pip install -r requirements.txt`
+`pip3 install -r requirements.in`
 
 ###### Create a database:
 
